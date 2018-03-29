@@ -1,0 +1,7 @@
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\bin\Debug\Moldavia.exe.config
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\bin\Debug\Moldavia.exe
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\bin\Debug\Moldavia.pdb
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\obj\Debug\Moldavia.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\obj\Debug\Moldavia.csproj.CoreCompileInputs.cache
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\obj\Debug\Moldavia.exe
+C:\Users\Dragos\Desktop\reposclone\Moldavia\Moldavia\obj\Debug\Moldavia.pdb

@@ -1,0 +1,26 @@
+﻿<Window x:Class="GestionePratiche.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionePratiche"
+        mc:Ignorable="d"
+        Title="Moldavia is da weh" Height="450" Width="800">
+    <StackPanel>
+        <WrapPanel>
+            <Image Source="img/LogoGP.png" MaxHeight="50"></Image>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Label Background="LightGray" MinHeight="37.5" MinWidth="250" Margin="10 -25 10 10">Benvenuto! Scegli l'operazione da effettuare!</Label>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button Name="BtnPreventivo" IsEnabled="True" Click="BtnPreventivo_Click" MinWidth="120" MinHeight="37.5" Margin="50 35 50 10">Calcola Preventivo</Button>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button Name="BtnPratiche" IsEnabled="True" Click="BtnPratiche_Click" MinWidth="120" MinHeight="37.5" Margin="50 40 50 10">Gestione Pratiche</Button>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button Name="BtnAnagrafica" IsEnabled="True" Click="BtnAnagrafica_Click" MinWidth="120" MinHeight="37.5" Margin="50 40 50 10">Anagrafica Clienti</Button>
+        </WrapPanel>
+    </StackPanel>
+</Window>

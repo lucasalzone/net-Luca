@@ -1,0 +1,19 @@
+CREATE DATABASE GestionePratiche;
+USE GestionePratiche;
+CREATE TABLE [dbo].[AnagClienti] (
+    [CodCliente]  INT            IDENTITY (1, 1) NOT NULL,
+    [Nome]        VARCHAR (50)   NULL,
+    [Cognome]     VARCHAR (50)   NULL,
+    [DataNascita] DATE           NULL,
+    [Indirizzo]   NVARCHAR (200) NULL,
+    PRIMARY KEY CLUSTERED ([CodCliente] ASC)
+);
+CREATE TABLE [dbo].[Pratiche] (
+    [NPrat]      INT        IDENTITY (1, 1) NOT NULL,
+    [CodCliente] INT        NULL,
+    [Rata]       SMALLMONEY NULL,
+    [Durata]     INT        NULL,
+    [MLordo]     SMALLMONEY NULL,
+    PRIMARY KEY CLUSTERED ([NPrat] ASC),
+    FOREIGN KEY ([CodCliente]) REFERENCES [dbo].[AnagClienti] ([CodCliente])
+);

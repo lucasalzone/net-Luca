@@ -1,0 +1,12 @@
+C:\Users\Dragos\Desktop\reposclone\Moldavia\LibGestore\bin\Debug\LibGestore.dll
+C:\Users\Dragos\Desktop\reposclone\Moldavia\LibGestore\bin\Debug\LibGestore.pdb
+C:\Users\Dragos\Desktop\reposclone\Moldavia\LibGestore\obj\Debug\LibGestore.csprojResolveAssemblyReference.cache
+C:\Users\Dragos\Desktop\reposclone\Moldavia\LibGestore\obj\Debug\LibGestore.csproj.CoreCompileInputs.cache
+C:\Users\Dragos\Desktop\reposclone\Moldavia\LibGestore\obj\Debug\LibGestore.dll
+C:\Users\Dragos\Desktop\reposclone\Moldavia\LibGestore\obj\Debug\LibGestore.pdb
+C:\Users\Luke\SviluppoNet\DBtraccia1\Moldavia\LibGestore\bin\Debug\LibGestore.dll
+C:\Users\Luke\SviluppoNet\DBtraccia1\Moldavia\LibGestore\bin\Debug\LibGestore.pdb
+C:\Users\Luke\SviluppoNet\DBtraccia1\Moldavia\LibGestore\obj\Debug\LibGestore.csprojResolveAssemblyReference.cache
+C:\Users\Luke\SviluppoNet\DBtraccia1\Moldavia\LibGestore\obj\Debug\LibGestore.csproj.CoreCompileInputs.cache
+C:\Users\Luke\SviluppoNet\DBtraccia1\Moldavia\LibGestore\obj\Debug\LibGestore.dll
+C:\Users\Luke\SviluppoNet\DBtraccia1\Moldavia\LibGestore\obj\Debug\LibGestore.pdb

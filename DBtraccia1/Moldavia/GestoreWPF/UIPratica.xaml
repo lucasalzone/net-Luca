@@ -1,0 +1,103 @@
+﻿<Window x:Class="GestionePratiche.UIPratica"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionePratiche"
+        mc:Ignorable="d"
+        Title="Pratica" Height="450" Width="800">
+    <StackPanel>
+        <WrapPanel Margin="10 10 10 10" HorizontalAlignment="Center">
+            <Label>Benvenuto nella sezione dedicata alle pratiche!</Label>
+        </WrapPanel>
+        <WrapPanel
+            Margin="10 10 10 10">
+            <Label
+                
+                MinWidth="250">Numero Pratica</Label>
+            <TextBox 
+                MinWidth="500"
+                Name="txtnPrat">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel
+            Margin="10 10 10 10">
+            <Label
+                Margin="0 0 0 0 "
+                MinWidth="250">Codice Cliente</Label>
+            <TextBox 
+                Name="txtCodcliente"
+                MinWidth="500">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel
+            Margin="10 10 10 10">
+            <Label
+                Margin="0 0 0 0 "
+                MinWidth="250">Importo della Rata</Label>
+            <TextBox
+                Name="txt_Rata" MinWidth="500">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel
+            Margin="10 10 10 10">
+            <Label
+                MinWidth="250"
+                >Durata (in mesi)</Label>
+            <TextBox MinWidth="500"
+                     Name="txt_Durata">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel
+            Margin="10 10 10 10">
+            <Label
+                MinWidth="250"
+                >Stipendio</Label>
+            <TextBox MinWidth="500"
+                     Name="txtStipendio">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel
+            Margin="10 10 10 10">
+            <Label
+                Margin="0 0 0 0 "
+                MinWidth="250">Montante Lordo</Label>
+            <TextBox 
+                Name="txt_MLordo"
+                MinWidth="500">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel 
+            HorizontalAlignment="Center"
+            Margin="40">
+            <Button
+                Name="BtnCerca"
+                Click="BtnCerca_Click"
+                Margin="10">Cerca
+                </Button>
+                    <Button
+                Click="BtnAdd_Click"
+                Margin="10"
+                Name="BtnAdd">Aggiungi</Button>
+            <Button 
+                Click="BtnMod_Click"
+                Margin="10"
+                Name="BtnMod">Modifica</Button>
+            <Button 
+                Click="BtnDel_Click"
+                Margin="10"
+                Name="BtnDel">Elimina</Button>
+            <Button
+                Margin="10"
+                Click="ButtonAvanti_Click"
+                Name="BtnAvanti">Avanti
+                </Button>
+            <Button
+                Name="BtnIndietro"
+                Margin="10"
+                Click="BtnIndietro_Click">Indietro</Button>
+        </WrapPanel>
+    </StackPanel>
+
+
+</Window>

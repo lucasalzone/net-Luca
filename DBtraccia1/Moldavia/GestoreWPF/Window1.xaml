@@ -1,0 +1,28 @@
+﻿<Window x:Class="GestionePratiche.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionePratiche"
+        mc:Ignorable="d"
+        Title="Moldavia is da weh/calcolapreventivo" Height="450" Width="800">
+    <StackPanel>
+        <WrapPanel>
+            <Image Source="img/LogoGP.png" MaxHeight="50"></Image>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Label HorizontalContentAlignment="Center" Background="LightGray" MinHeight="37.5" MinWidth="275" Margin="10 -25 10 10">Benvenuto nella sezione dedicata ai Preventivi!</Label>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Label HorizontalContentAlignment="Center" Background="LightGray" Margin="10 37.5 10 10" MinHeight="25" MinWidth="100">Stipendio (€)</Label>
+            <TextBox Margin="10 37.5 10  10" MinHeight="25" MinWidth="450"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Label HorizontalContentAlignment="Center" Background="LightGray" Margin="10 37.5 10 10" MinHeight="25" MinWidth="100">Durata (mesi)</Label>
+            <TextBox Margin="10 37.5 10  10" MinHeight="25" MinWidth="450" TextChanged="TextBox_TextChanged"></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button IsEnabled="True" Click="CalcolaPreventivo_Click" Margin="10 40 10 10" MinHeight="25" MinWidth="100" Name="CalcolaPreventivo">Calcola!</Button>
+        </WrapPanel>
+    </StackPanel>
+</Window>

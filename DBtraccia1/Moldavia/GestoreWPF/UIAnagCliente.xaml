@@ -1,0 +1,47 @@
+﻿<Window x:Class="GestionePratiche.UiAnagCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionePratiche"
+        mc:Ignorable="d"
+        Title="AnagCliente" Height="450" Width="800">
+    <StackPanel HorizontalAlignment="Center">
+        <WrapPanel>
+            <Label HorizontalAlignment="Left" Margin="10" Width="100">Nome: </Label>
+            <TextBox Name="TxtNome" Width="100" Margin="10"></TextBox>
+           
+        </WrapPanel>
+        <WrapPanel>
+            <Label HorizontalAlignment="Left" Margin="10" Width="100">Cognome:</Label>
+            <TextBox Name="TxtCognome" Width="100" Margin="10"></TextBox>
+        </WrapPanel>
+        <WrapPanel>
+            <Label HorizontalAlignment="Left" Margin="10" Width="100">Data di nascita:</Label>
+            <DatePicker Name="datePicker" Margin="10"
+              SelectedDateFormat="Long"/>
+            <TextBlock Name="TxtDataNascita" Text="{Binding ElementName=datePicker, Path=Text}"/>
+        </WrapPanel>
+        <WrapPanel>
+            <Label HorizontalAlignment="Left" Margin="10" Width="100">Indirizzo:</Label>
+            <TextBox Name="TxtIndirizzo" Width="200" Margin="10"></TextBox>
+        </WrapPanel>
+        <WrapPanel>
+            <!--IsReadOnly="True" -->
+            <Label HorizontalAlignment="Left" Margin="10" Width="100">Codice Cliente:</Label>
+            <TextBox Name="TxtCodCliente"  Width="100" Margin="10" ></TextBox>
+        </WrapPanel>
+        <WrapPanel>
+            <Label HorizontalAlignment="Left" Margin="10" Width="100">Ricerca Universale:</Label>
+            <TextBox Name="TxtRicUniversale"  Width="200" Margin="10" ></TextBox>
+        </WrapPanel>
+        <WrapPanel HorizontalAlignment="Center">
+            <Button Name="BtnAvanti" IsEnabled="false" Click="BtnAvanti_Click" Margin="10">AVANTI</Button>
+            <Button Name="BtnIndietro" IsEnabled="false" Click="BtnIndietro_Click" Margin="10">INDIETRO</Button>
+            <Button Name="BtnAggiungi" Click="BtnAggiungi_Click" Margin="10">AGGIUNGI</Button>
+            <Button Name="BtnModifica" Click="BtnModifica_Click" Margin="10">MODIFICA</Button>
+            <Button Name="BtnCerca" Click="BtnCerca_Click" Margin="10">CERCA</Button>
+            <Button Name="BtnClearCampi" Click="BtnClearCampi_Click" Margin="10">Clear</Button>
+        </WrapPanel>
+    </StackPanel>
+</Window>
